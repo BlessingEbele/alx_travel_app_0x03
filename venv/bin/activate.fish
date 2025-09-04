@@ -29,7 +29,11 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV /home/blessingebele/alx_travel_app_0x03/venv
+=======
+set -gx VIRTUAL_ENV /mnt/c/Users/princ/alx_travel_app_0x03/venv
+>>>>>>> 7317459be58757ae683b41a9b279c9a6adfe5992
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH
