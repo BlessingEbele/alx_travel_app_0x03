@@ -1,6 +1,22 @@
-asgiref==3.9.1
-Django==5.2.5
-djangorestframework==3.16.1
-python-dotenv==1.1.1
-sqlparse==0.5.3
-tzdata==2025.2
+# Django & REST
+Django>=5.0,<6.0
+djangorestframework>=3.15.0
+drf-yasg>=1.21.7       # Swagger/OpenAPI
+
+# Celery & Async
+celery>=5.3.6
+redis>=5.0.0           # if using Redis broker/backend
+amqp>=5.2.0            # for RabbitMQ
+
+# Environment variables
+python-decouple>=3.8
+
+# Database (if using PostgreSQL)
+psycopg2-binary>=2.9.9
+
+# CORS & Security
+django-cors-headers>=4.3.1
+
+# Optional utilities
+django-filter>=24.1    # filtering in DRF
+gunicorn>=22.0.0       # WSGI server for deployment
